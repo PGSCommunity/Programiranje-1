@@ -2,7 +2,11 @@
 using namespace std;
 
 int main() {
-
+    int x, y(0);
+    cout << "Unesite broj x!\n";
+    cin >> x;
+    y = x - 6 + (x * x - 3) / 4;
+    cout << "Vrijednost y: " << y;
     return 0;
 }
 /*
