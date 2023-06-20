@@ -2,7 +2,13 @@
 using namespace std;
 
 int main() {
-
+    const float radius = 6370;
+    const float pi = 3.14;
+    float kilometar, brzina;
+    cout << "Unesite kilometre i brzinu!\n";
+    cin >> kilometar >> brzina;
+    float obim = 2 * pi * (radius - kilometar);
+    cout << "Avioc je obletjeti zemlju za " << obim / brzina << " sati.";
     return 0;
 }
 /*
