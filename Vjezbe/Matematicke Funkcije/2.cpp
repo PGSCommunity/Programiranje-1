@@ -3,7 +3,12 @@
 using namespace std;
 
 int main() {
-
+    float d, a;
+    const float pi = 3.14;
+    cout << "Unesite ugao alfa i katetu a!\n";
+    cin >> d >> a;
+    float alfa = d * pi / 180;
+    cout << "Hipotenuza c iznosi: " << a / sin(alfa);
     return 0;
 }
 /*
