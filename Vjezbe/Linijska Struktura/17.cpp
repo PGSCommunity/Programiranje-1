@@ -2,7 +2,11 @@
 using namespace std;
 
 int main() {
-
+    int cetverocifreni;
+    cout << "Unesite cetverocifreni broj!\n";
+    cin >> cetverocifreni;
+    cout << "Obrnut redosljed cifara ucitanog broja:\n";
+    cout << cetverocifreni / 1000 << (cetverocifreni / 100) % 10 << (cetverocifreni / 10 % 10) << cetverocifreni % 10;
     return 0;
 }
 /*
