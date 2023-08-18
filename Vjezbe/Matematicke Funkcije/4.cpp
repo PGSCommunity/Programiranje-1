@@ -7,5 +7,5 @@ int main() {
     return 0;
 }
 /*
-U koordinatnom sistemu date su četiri tačke. Napisati program kojim se izračunava obim četverougla čiji su vrhovi date tačke.
+Napisati program koji za ucitani cijeli broj racuna i ispisuje njegov kvadratni korijen i drugi korijen
 */
